@@ -85,7 +85,7 @@ const prompter = (cz, commit) => {
             name: 'selectedTails',
             when: () => !!localTails.length,
             choices: localTails,
-            message: 'Check the features needed for your project:\n',
+            message: 'Check the Tails needed for your commit:\n',
           },
           {
             type: 'input',
