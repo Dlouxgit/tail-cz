@@ -4,14 +4,14 @@ An adapter that adds trailer fields for commitizen.
 
 ## Usage
 
-### Global Installation
+### Quick Start
 
-For a quick global installation of the plugin, simply run the `install.sh` script present in this repo:
+For a quick global installation.
 
 ```
-chmod +x install.sh
+npm install tail-cz commitizen -g
 
-./install.sh
+tail-cz install
 ```
 
 ### Add this adapter
@@ -19,7 +19,7 @@ chmod +x install.sh
 Install this adapter
 
 ```
-npm install tail-cz
+npm install tail-cz commitizen
 ```
 
 Reference it in your `.cz.json` of your project
@@ -35,6 +35,11 @@ or use commitizen to init
 commitizen init tail-cz
 ```
 
+### Reset tail config
+
+```
+tail-cz reset
+```
 
 ### Day to day work
 
