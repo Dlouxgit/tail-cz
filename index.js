@@ -104,7 +104,7 @@ const prompter = (cz, commit) => {
         // parentheses are only needed when a scope is present
         const scope = answers.scope ? '(' + answers.scope + ')' : '';
 
-        const selectedTails = answers.selectedTails;
+        const selectedTails = answers.selectedTails || [];
         let tails = answers.tails?.split(',') || []
         tails = tails.map(i => i.trim())
         // Hard limit this line in the validate
