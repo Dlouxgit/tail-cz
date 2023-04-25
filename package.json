@@ -1,6 +1,6 @@
 {
   "name": "tail-cz",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An adapter that adds trailer fields for commitizen.",
   "main": "index.js",
   "scripts": {
